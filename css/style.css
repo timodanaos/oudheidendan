@@ -1,0 +1,65 @@
+body {
+    font-family: Alegreya, serif;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+header {
+    background-color: saddlebrown;
+    color: blanchedalmond;
+    padding-left: 20px;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#site-title {
+    margin-right: auto;
+    display: inline-flex;
+}
+
+header img {
+    height: auto;
+    width: 5em;
+    margin-right: 20px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+header ul li {
+    margin-right: 20px;
+    padding-right: 40px;
+}
+
+content {
+    position: relative;
+    top: 100px;
+}
+
+header a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: darkolivegreen;
+}
+
+#inhoud {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+}
