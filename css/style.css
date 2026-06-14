@@ -5,6 +5,8 @@ body {
     background-color: blanchedalmond;
 }
 
+/* Voor de navigatiebalk */
+
 header {
     background-color: saddlebrown;
     color: blanchedalmond;
@@ -57,14 +59,16 @@ header a:hover {
     color: darkolivegreen;
 }
 
+#hier {
+    color: steelblue;
+}
+
+/* Voor de inhoud van de pagina algemeen */
+
 #inhoud {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 20px;
-}
-
-#hier {
-    color: steelblue;
 }
 
 content {
@@ -78,9 +82,12 @@ table {
     margin-bottom: 20px;
 }
 
-td {
-    text-align: center;
+td img {
+    width: 100%;
+    height: auto;
 }
+
+/* Voor de inhoud van de pagina op de homepage */
 
 #left {
     text-align: center;
@@ -100,15 +107,29 @@ td {
 #knophome {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     font-size: larger;
     background-color: tan;
     border-radius: 5%;
+    text-align: justify;
 }
 
-td img {
-    width: 100%;
-    height: auto;
+#knophome a {
+    color: rgb(74, 36, 9);
+    text-decoration: none;
 }
+
+#titelknophome {
+    text-align: center;
+}
+
+#knophome:hover {
+    background-color: darkolivegreen;
+    color: blanchedalmond;
+}
+
+/* Voor de footer */
 
 #footer {
     display: flex;
