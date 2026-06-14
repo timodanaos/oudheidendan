@@ -44,9 +44,8 @@ header ul li {
     padding-right: 40px;
 }
 
-content {
-    position: relative;
-    top: 100px;
+#spacenav {
+    height: 100px;
 }
 
 header a {
@@ -62,4 +61,84 @@ header a:hover {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 20px;
+}
+
+#hier {
+    color: steelblue;
+}
+
+content {
+    color: rgb(74, 36, 9);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+td {
+    text-align: center;
+}
+
+#left {
+    text-align: center;
+    width: 75%;
+    text-align: justify;
+}
+
+#right {
+    text-align: center;
+}
+
+#midden {
+    text-align: center;
+    width: 10%
+}
+
+#knophome {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    font-size: larger;
+    background-color: tan;
+    border-radius: 5%;
+}
+
+td img {
+    width: 100%;
+    height: auto;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+footer {
+    background-color: saddlebrown;
+    color: blanchedalmond;
+    text-align: left;
+    padding-left: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+footer a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: darkolivegreen;
+}
+
+footer img {
+    width: 5em;
+    margin-left: auto;
 }
