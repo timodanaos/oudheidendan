@@ -91,7 +91,7 @@ td img {
 
 #left {
     text-align: center;
-    width: 75%;
+    width: 60%;
     text-align: justify;
 }
 
@@ -127,6 +127,13 @@ td img {
 #knophome:hover {
     background-color: darkolivegreen;
     color: blanchedalmond;
+}
+
+/* Voor de inhoud van de pagina op de receptiepagina */
+
+#sybille {
+    width: 80%;
+    height: auto;
 }
 
 /* Voor de footer */
