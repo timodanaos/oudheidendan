@@ -87,7 +87,10 @@ td img {
     height: auto;
 }
 
-/* Voor de inhoud van de pagina op de homepage */
+hr {
+    border: 1px solid rgb(74, 36, 9);
+    width: 100%;
+}
 
 #left {
     text-align: center;
@@ -103,6 +106,22 @@ td img {
     text-align: center;
     width: 10%
 }
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: tan;
+    color: rgb(74, 36, 9);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkolivegreen;
+    color: blanchedalmond;
+}
+
+/* Voor de inhoud van de pagina op de homepage */
 
 #knophome {
     padding-top: 1.5em;
@@ -135,6 +154,8 @@ td img {
     width: 80%;
     height: auto;
 }
+
+
 
 /* Voor de footer */
 
