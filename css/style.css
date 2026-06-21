@@ -166,6 +166,10 @@ button:hover {
     height: auto;
 }
 
+#buttondown {
+    margin-right: 20px;
+}
+
 /*Voor de teksten-homepagina*/
 
 #athena {
